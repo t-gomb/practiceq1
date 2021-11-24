@@ -1,0 +1,25 @@
+.form-group-1 {
+    display: inline-block;
+}
+
+.form-group-2 {
+    display: block;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    color: white;
+    background-color: #22212c;
+    background-image: url("https://bit.ly/3o6lZWh"),
+      radial-gradient(
+        circle,
+        rgba(149, 128, 255, 0.4) 0%,
+        rgba(34, 33, 44, 0.4) 100%
+      );
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

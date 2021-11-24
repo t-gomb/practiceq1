@@ -5,6 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="createCardStyles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Create your DevCard</h1>
+      <form action="/people" method="POST">
+        <div class="form-group-1">
+          <input type="name" class="form-control" id="newFullName" placeholder="Your Full name" name="newFullName">
+          <input type="text" class="form-control" id="newAbout" placeholder="About Me" name="newAbout">
+
+          <br>
+          <input type="checkbox" id="css" name="css" value="CSS">
+          <label for="css">CSS</label>
+
+          <input type="checkbox" id="html" name="html" value="HTML">
+          <label for="html">HTML</label>
+          <br>
+          <input type="checkbox" id="js" name="js" value="JS">
+          <label for="js">JS</label>
+          
+          <input type="checkbox" id="nodeJs" name="nodeJs" value="NODE JS">
+          <label for="nodeJs">NODE</label>
+          <br>
+          <input type="checkbox" id="react" name="react" value="REACT">
+          <label for="react">REACT</label>
+
+          <input type="checkbox" id="git" name="git" value="GIT">
+          <label for="git">GTI</label>
+
+        </div>
+        <div class="form-group-2">
+          <input type="text" class="form-control" id="newGit" placeholder="Github URL" name="newGit">
+          
+          <input type="text" class="form-control" id="newTwitter" placeholder="Twitter URL" name="newTwitter">
+          <br>
+          <br>
+          <input type="text" class="form-control" id="books" placeholder="Favorite Books (seperated by comma)" name="books">
+   
+          <input type="text" class="form-control" id="artist" placeholder="Favortie Artists (seperated by comma)" name="artist">
+          
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create Site</button>
+      </form>
+
+
+
+    </div>
+
+
+  </body>
 </html>
