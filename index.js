@@ -15,6 +15,9 @@ app.get("/people/:id", (req, res) => {
   res.render("people");
 });
 
+app.post("/", (req, res) => {
+  res.render("homepage");
+})
 app.get("/:id/photos", (req, res) => {
   const id = req.params.id;
 });
